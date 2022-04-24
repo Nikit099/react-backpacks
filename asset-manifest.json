@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-backpacks/static/css/main.ed2d8217.chunk.css",
+    "main.js": "/react-backpacks/static/js/main.9206e0d4.chunk.js",
+    "main.js.map": "/react-backpacks/static/js/main.9206e0d4.chunk.js.map",
+    "runtime-main.js": "/react-backpacks/static/js/runtime-main.8c26fda3.js",
+    "runtime-main.js.map": "/react-backpacks/static/js/runtime-main.8c26fda3.js.map",
+    "static/js/2.83d7e6c6.chunk.js": "/react-backpacks/static/js/2.83d7e6c6.chunk.js",
+    "static/js/2.83d7e6c6.chunk.js.map": "/react-backpacks/static/js/2.83d7e6c6.chunk.js.map",
+    "index.html": "/react-backpacks/index.html",
+    "static/css/main.ed2d8217.chunk.css.map": "/react-backpacks/static/css/main.ed2d8217.chunk.css.map",
+    "static/js/2.83d7e6c6.chunk.js.LICENSE.txt": "/react-backpacks/static/js/2.83d7e6c6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c26fda3.js",
+    "static/js/2.83d7e6c6.chunk.js",
+    "static/css/main.ed2d8217.chunk.css",
+    "static/js/main.9206e0d4.chunk.js"
+  ]
+}
