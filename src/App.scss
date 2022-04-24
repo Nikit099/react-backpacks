@@ -124,6 +124,11 @@ header {
         display: flex;
         border-radius: 10px;
         border: 1px solid #f3f3f3;
+        position: relative;
+        .clear {
+            position: absolute;
+            right: 10px;
+        }
     }
     input {
         border: 0;

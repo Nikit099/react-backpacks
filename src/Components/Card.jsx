@@ -3,6 +3,7 @@ import React, {useState} from 'react'
 function Card({img, title, scale, onPlus }) {
     const [addCheck, setAddCheck] = useState(false)
     const [addPlusCheck, setAddPlusCheck] = useState(false)
+ 
     const plusClick = () => {
         setAddCheck(!addCheck);
         onPlus({img, title, scale});
@@ -21,8 +22,8 @@ function Card({img, title, scale, onPlus }) {
        <div className='magia'>
        <div className='bottomCard'>
   
-         <p>Цена:</p>
-        <b>{scale} руб.</b>
+         <p>price:</p>
+        <b>{scale} $.</b>
          
        </div>
        <img className='plus' src={addCheck ? "/img/plus1.png" : "/img/plus2.png"} alt="add" width={19} onClick={plusClick} />

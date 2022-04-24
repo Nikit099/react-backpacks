@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Drawer({deletDrawer, items = []}) {
+function Drawer({deletDrawer, items = [], onRemove}) {
    
     
     return (
@@ -16,7 +16,7 @@ function Drawer({deletDrawer, items = []}) {
       <p>{obj.title}</p>
       <b>{obj.scale} руб.</b>
     </div>
-    <img className='delet' src="/img/delet.png" alt="delet" width={30}/>
+    <img className='delet' onClick={() => onRemove(obj.id)} src="/img/delet.png" alt="delet" width={30}/>
     </div>
 
       ))} </div>

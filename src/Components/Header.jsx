@@ -8,7 +8,7 @@ function Header(props) {
       <img src="/img/back.png" alt="back" width={40} />
      <div>
       <h3>Bakepacks</h3>
-      <p>Магазин портфелей и сумок на спину</p>
+      <p>Shop for briefcases and bags on your back</p>
       </div>
     </div>
  
